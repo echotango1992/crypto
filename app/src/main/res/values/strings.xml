@@ -54,4 +54,7 @@
          from https://console.developers.google.com/ -->
     <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
     <string name="google_title_text">Google</string>
+    <string name="welcome">Welcome</string>
+    <string name="revoke_access">Revoked</string>
+    <string name="logout">Bye</string>
 </resources>

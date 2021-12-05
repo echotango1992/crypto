@@ -15,6 +15,12 @@
         <activity
             android:name=".CryptoActivity"
             android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
 
         <activity
             android:name=".FavoritesActivity"
@@ -24,7 +30,7 @@
             android:exported="false" />
 
         <activity
-            android:name=".SignInActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

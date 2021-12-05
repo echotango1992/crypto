@@ -6,11 +6,8 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.Switch;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -33,7 +30,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class CryptoActivity extends AppCompatActivity {
@@ -209,7 +205,7 @@ public class CryptoActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                Intent Intent = new Intent(CryptoActivity.this, SignInActivity.class);
+                Intent Intent = new Intent(CryptoActivity.this, MainActivity.class);
                 startActivity(Intent);
                 return true;
         }

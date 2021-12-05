@@ -10,7 +10,6 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import android.widget.ProgressBar;import androidx.recyclerview.widget.RecyclerView;
 
 
 public class FavoritesActivity extends AppCompatActivity {
@@ -62,7 +61,7 @@ public class FavoritesActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                Intent Intent = new Intent(FavoritesActivity.this, SignInActivity.class);
+                Intent Intent = new Intent(FavoritesActivity.this, MainActivity.class);
                 startActivity(Intent);
                 return true;
         }

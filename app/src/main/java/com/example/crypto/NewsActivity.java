@@ -65,7 +65,7 @@ public class NewsActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                Intent Intent = new Intent(NewsActivity.this, SignInActivity.class);
+                Intent Intent = new Intent(NewsActivity.this, MainActivity.class);
                 startActivity(Intent);
                 return true;
         }
